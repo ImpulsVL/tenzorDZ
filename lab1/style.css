@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/804-font.otf') format('opentype');
+}
+
+body {
+    background-color: rgb(171, 204, 139);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+    color: brown;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+   font-size: 22px;
+   text-align: justify;
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+.content a {
+    display: inline-block;
+}
+
+.content a i {
+    margin-right: 10px;
+}
